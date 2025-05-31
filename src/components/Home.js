@@ -64,24 +64,24 @@ export default function Home() {
             <div className="bg-black text-white rounded-lg p-4 shadow-md cursor-pointer" onClick={() => navigate('/Class')}>
               <h2 className="text-xl font-bold">Registered Man</h2>
               <div className="flex justify-between items-center mt-4">
-                <p className="text-lg font-bold">00</p>
-                <AiFillSignal size={24} className="text-red-300" />
+                <p className="text-lg font-bold"></p>
+                <AiFillSignal size={24} className="text-red-600" />
               </div>
             </div>
 
             <div className="bg-black text-white rounded-lg p-4 shadow-md cursor-pointer" onClick={() => navigate('/Facilitator')}>
               <h2 className="text-xl font-bold">Registered Facilitators</h2>
               <div className="flex justify-between items-center mt-4">
-                <p className="text-lg font-bold">00</p>
-                <AiFillSignal size={24} className="text-red-300" />
+                <p className="text-lg font-bold"></p>
+                <AiFillSignal size={24} className="text-red-600" />
               </div>
             </div>
 
             <div className="bg-black text-white rounded-lg p-4 shadow-md cursor-pointer" onClick={() => navigate('/Cells')}>
               <h2 className="text-xl font-bold">Registered Cells</h2>
               <div className="flex justify-between items-center mt-4">
-                <p className="text-lg font-bold">5</p>
-                <AiFillSignal size={24} className="text-red-300" />
+                <p className="text-lg font-bold"></p>
+                <AiFillSignal size={24} className="text-red-600" />
               </div>
             </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
               <h2 className="text-xl font-bold">Assignments</h2>
               <div className="flex justify-between items-center mt-4">
                 <p className="text-lg font-bold"></p>
-                <AiFillSignal size={24} className="text-red-300" />
+                <AiFillSignal size={24} className="text-red-600" />
               </div>
             </div>
           </div>
