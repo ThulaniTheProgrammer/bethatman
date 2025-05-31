@@ -33,7 +33,7 @@ function SignIn() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4">
+    <div className="flex flex-col items-center pt-8 min-h-screen bg-black px-4">
       <h1 className="text-4xl font-extrabold mb-2 text-center">
         <span className="text-white bg-black px-2">BE</span>{' '}
         <span className="text-red-600">THAT</span>{' '}

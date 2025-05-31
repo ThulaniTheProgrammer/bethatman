@@ -89,7 +89,7 @@ const SignUp = () => {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+            className="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red"
           >
             Sign Up
           </button>
@@ -97,7 +97,7 @@ const SignUp = () => {
 
         <p className="text-sm text-center mt-4">
           Already have an account?{" "}
-          <Link to="/signin" className="text-blue-600 hover:underline">
+          <Link to="/signin" className="text-red-600 hover:underline">
             Log in
           </Link>
         </p>
